@@ -26,7 +26,7 @@
         }
         .say {
             display: block;
-            margin-bottom: 0px;
+            margin-bottom: 10px;
         }
         .space {
             display: inline-block;
@@ -37,7 +37,7 @@
 <body>
     <h1 style="text-align: center;"> Happy International Girlfriend Day</h1>
 
-    <audio src="O Sajni Re_320(PagalWorld.com.sb) (1).mp3" autoplay></audio>
+    <audio src="O Sajni Re_320(PagalWorld.com.sb) (1).mp3" id="myAudio"></audio>
 
 
 <div id="main">
@@ -46,19 +46,19 @@
         <div id="text">
             <div id="code">
                 <font color="00000"> <!-- Set the font color to red -->
-                    <span class="say">Hello my dearest love,</span><br>
+                    <span class="say">Hello my love,</span><br>
                     <span class="say"> </span><br>
-                    <span class="say">You are the most extraordinary person I’ve ever met, like a Bollywood dream come true. :)</span><br>
-                    <span class="say">You are the definition of beauty, a true screen goddess!</span><br>
-                    <span class="say">Your charm is like a blockbuster hit, leaving me mesmerized every day!</span><br>
-                    <span class="say">You are as adorable as a classic love song, filling my heart with joy!</span><br>
-                    <span class="say">You are the best thing that has ever happened to me, my ultimate love story.</span><br>
-                    <span class="say">...."With you, my heart finds its perfect harmony."</span><br>
-                    <span class="say">I promise to love you with all my heart until the end of my days. <3</span><br>
-                    <span class="say">Believe me, our journey together will be a beautiful epic, full of romance and magic. <3</span><br>
+                    <span class="say">You are the most wonderful person I've ever met :)</span><br>
+                    <span class="say">You are the most beautiful!</span><br>
+                    <span class="say">You are the most charming!</span><br>
+                    <span class="say">You are the most adorable!</span><br>
+                    <span class="say">You are the best thing that ever happened to me</span><br>
+                    <span class="say">..."With you, I need nothing else"</span><br>
+                    <span class="say">I will love you until the end of my days <3</span><br>
+                    <span class="say">Trust me, 'We will have a wonderful journey for the rest of our lives <3' :*</span><br>
                     <span class="say"> </span><br>
-                    <span class="say"><span class="space"></span> -- always yours --</span><br/>
-                    <span class="say" style="color:purple;"><span class="space"></span>Your potential future hero 😇😇😇</span><br>
+                    <span class="say"><span class="space"></span> -- Love you always --</span><br/>
+                    <span class="say" style="color:purple;"><span class="space"></span>Your potential future Boyfriend😇😇😇</span><br>
                 </font>
             </div>
         </div>
@@ -248,5 +248,16 @@
 
 <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
 </div>
+
+<script>
+    // Function to play the song
+    function playSong() {
+        const audio = document.getElementById('myAudio');
+        audio.play();
+    }
+
+    // Adding event listener to the button
+    document.getElementById('canvas').addEventListener('click', playSong);
+</script>
 </body>
 </html>
